@@ -1,0 +1,268 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+  
+    /* CSS */
+    .social-icon {
+        top: 30%;
+    }
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    
+    /* CSS */
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 58px;
+        line-height: 1.1;
+    }
+    .banner p {
+        margin-top: 50px;
+        margin-right: 0px;
+    }
+    .social-icon {
+        top: 37%;
+    }
+    #coffee-img1 img, #coffee-img2 img, #coffee-img3 img {
+        max-width: 400px;
+        max-height: 500px;
+        margin-bottom: 50px;
+    }
+    .img-box {
+        left: -130px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    /* CSS */
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 58px;
+        line-height: 1.1;
+    }
+    .banner p {
+        margin-top: 38px;
+        margin-right: 120px;
+    }
+    .banner-row {
+        margin-top: 48px;
+    }
+    .social-icon {
+        top: 37%;
+    }
+    #coffee-img1 img, #coffee-img2 img, #coffee-img3 img {
+        max-width: 400px;
+        max-height: 500px;
+        margin-bottom: 50px;
+        margin-left: 250px;
+    }
+    .img-box {
+        left: 48px;
+    }
+    .circle{
+        clip-path: circle(60% at 99% 99%);
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width:991px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+    /* CSS */
+    .container, .container-sm {
+        max-width:none;
+    }
+    .banner-row {
+        margin-left: 38px;
+    }
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 58px;
+        line-height: 1.1;
+    }
+    .banner p {
+        margin-top: 38px;
+        margin-right: 80px;
+    }
+    .banner-row {
+        margin-top: 48px;
+    }
+    .social-icon {
+        top: 37%;
+    }
+    #coffee-img1 img, #coffee-img2 img, #coffee-img3 img {
+        max-width: 400px;
+        max-height: 500px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+    .img-box {
+        left: 0px;
+    }
+    .circle{
+        clip-path: circle(70% at 99% 99%);
+    }
+  }
+  @media (min-width: 480px) and (max-width: 575px) {
+    
+    /* CSS */
+    .container, .container-sm {
+        max-width:none;
+    }
+    .banner-row {
+        margin-left: 38px;
+    }
+    .banner h3 {
+        font-size: 40px;
+    }
+    .banner h1 {
+        font-size: 58px;
+        line-height: 1.1;
+    }
+    .banner p {
+        margin-top: 38px;
+        margin-right: 18px;
+    }
+    .banner-row {
+        margin-top: 48px;
+    }
+    .social-icon {
+        top: 42%;
+    }
+    #coffee-img1 img, #coffee-img2 img, #coffee-img3 img {
+        max-width: 400px;
+        max-height: 500px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .img-box {
+        left: 0px;
+    }
+    .circle{
+        clip-path: circle(70% at 99% 99%);
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 382px) and (max-width: 479px) {
+    
+    /* CSS */
+    .container, .container-sm {
+        max-width:none;
+    }
+    .banner-row {
+        margin-left: 38px;
+    }
+    .banner h3 {
+        font-size: 28px;
+    }
+    .banner h1 {
+        font-size: 41px;
+        line-height: 1.1;
+    }
+    .banner p {
+        margin-top: 38px;
+        margin-right: 18px;
+    }
+    .banner-row {
+        margin-top: 48px;
+    }
+    .social-icon {
+        top: 42%;
+    }
+    #coffee-img1 img, #coffee-img2 img, #coffee-img3 img {
+        max-width: 400px;
+        max-height: 500px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .img-box {
+        left: -40px;
+    }
+    .circle{
+        clip-path: circle(70% at 99% 99%);
+    }
+  }
+  @media (min-width: 320px) and (max-width: 381px) {
+    
+    /* CSS */
+    .container, .container-sm {
+        max-width:none;
+    }
+    .banner-row {
+        padding-left: 15px;
+    }
+    .banner h3 {
+        font-size: 28px;
+    }
+    .banner h1 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+    .banner p {
+        margin-top: 38px;
+        margin-right: 18px;
+    }
+    .banner-row {
+        margin-top: 48px;
+    }
+    .social-icon {
+        top: 42%;
+    }
+    #coffee-img1 img, #coffee-img2 img, #coffee-img3 img {
+        max-width: 280px;
+        max-height: 320px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+.side-box {
+    margin-top: 20px;
+}
+    .img-box {
+        left: -10px;
+        bottom: 10px;
+    }
+    .circle{
+        clip-path: circle(70% at 99% 99%);
+    }
+    .img-box img {
+        width: 11%;
+    }
+  }
